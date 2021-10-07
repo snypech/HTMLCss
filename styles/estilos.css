@@ -7,33 +7,23 @@ ul{
   display: flex;
   justify-content: space-between;
 }
-
-.mainButton{
-  background-color: #1bb76e;
-  color: white;  
+.button{
+  color: white; 
   border: 0px;
   padding: 5px 10px;
   border-radius: 10px;
   font-weight: bolder;
-  box-shadow: 1px 1px green;
 }
-
-.mainButton:hover{
+.button:hover{
   cursor: pointer;
   transform: scale(1.1);
+}
+.mainButton{
+  background-color: #1bb76e;
+  box-shadow: 1px 1px green;
 }
 
 .secondaryButton{
   background-color: #4d79ca;
-  color: white;  
-  border: 0px;
-  padding: 5px 10px;
-  border-radius: 10px;
-  font-weight: bolder;
-  box-shadow: 1px 1px rgb(140, 164, 207);
-}
-
-.secondaryButton{
-  cursor: pointer;
-  transform: scale(1.1);
+  box-shadow: 1px 1px rgb(150, 166, 240); 
 }
